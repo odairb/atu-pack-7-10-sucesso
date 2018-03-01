@@ -1,6 +1,8 @@
 #!/bin/bash
 echo ""
 echo "Pré-instalação do LíderCRM - Execute antes do configurador Web."
+echo "Pré-instalação do LíderCRM - Execute antes do configurador Web."
+echo "Pré-instalação do LíderCRM - Execute antes do configurador Web."
 read -p "Digite o nome da instância a ser atualizada: " instancia
 
 echo "........................................"
@@ -17,6 +19,7 @@ echo "....................................."
 echo ".................................."
 echo "..............................."
 echo "............................"
+echo "Aplicando permissionamento..."
 echo "Aplicando permissionamento..."
 echo "............................"
 chown -R apache:webserver /var/www/html/$instancia
